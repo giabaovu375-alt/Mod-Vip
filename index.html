@@ -2,13 +2,17 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Tải File Mod Skin Free Fire OB53</title>
     <style>
-        /* Toàn bộ trang web */
+        /* Reset cơ bản để tránh tràn màn hình */
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            background-color: #0d0d0d; /* Nền đen đậm */
-            color: #ffffff; /* Chữ màu trắng */
+            background-color: #0d0d0d;
+            color: #ffffff;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
@@ -16,133 +20,127 @@
             flex-direction: column;
             align-items: center;
             min-height: 100vh;
+            overflow-x: hidden; /* Chống cuộn ngang */
         }
 
-        /* Avatar tròn, to ở trên cùng */
         .avatar-container {
-            margin-top: 40px;
-            margin-bottom: 20px;
+            margin-top: 30px;
+            margin-bottom: 15px;
         }
         .avatar {
-            width: 150px; /* Độ rộng avatar */
-            height: 150px; /* Chiều cao avatar */
-            border-radius: 50%; /* Làm tròn */
-            border: 4px solid #ff0000; /* Viền đỏ */
-            box-shadow: 0 0 20px rgba(255, 0, 0, 0.7); /* Hiệu ứng tỏa sáng đỏ */
-            object-fit: cover; /* Giữ tỷ lệ ảnh */
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 3px solid #ff0000;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+            object-fit: cover;
         }
 
-        /* Khung bo tròn, layer Đỏ - Đen */
         .main-container {
-            background: rgba(20, 20, 20, 0.9); /* Nền đen xám nhẹ */
-            border: 2px solid #ff0000; /* Viền đỏ */
-            border-radius: 25px; /* Bo góc */
-            padding: 30px;
-            width: 90%;
-            max-width: 500px; /* Độ rộng tối đa */
+            background: rgba(18, 18, 18, 0.95);
+            border: 2px solid #ff0000;
+            border-radius: 20px;
+            padding: 20px;
+            width: 92%; /* Đảm bảo không tràn màn hình */
+            max-width: 450px;
             text-align: center;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Đổ bóng */
-            margin-bottom: 40px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+            margin-bottom: 30px;
         }
 
-        /* Tiêu đề trang */
         .site-title {
-            color: #ff0000; /* Chữ màu đỏ */
+            color: #ff0000;
             text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 10px;
-            font-size: 24px;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            font-size: 22px;
+            font-weight: bold;
         }
         .site-subtitle {
-            color: #aaaaaa;
-            font-size: 14px;
-            margin-bottom: 30px;
+            color: #888;
+            font-size: 13px;
+            margin-bottom: 25px;
         }
 
         /* Nút Download */
         .download-btn {
-            background: linear-gradient(45deg, #ff0000, #990000); /* Hiệu ứng chuyển màu đỏ */
+            background: linear-gradient(45deg, #ff0000, #b30000);
             color: white;
             border: none;
-            padding: 15px 30px;
-            font-size: 18px;
+            padding: 14px 20px;
+            font-size: 16px;
             font-weight: bold;
             text-transform: uppercase;
             border-radius: 50px;
             cursor: pointer;
-            box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3);
-            transition: all 0.3s ease;
             text-decoration: none;
-            display: inline-block;
-            margin-bottom: 30px;
-        }
-        .download-btn:hover {
-            box-shadow: 0 8px 25px rgba(255, 0, 0, 0.5);
-            transform: translateY(-2px); /* Nhún nhẹ khi hover */
+            display: block;
+            margin-bottom: 12px;
+            transition: 0.3s;
         }
 
-        /* Bảng mật khẩu giải nén */
+        /* Nút Video hướng dẫn */
+        .video-btn {
+            background: #ffcc00;
+            color: #000;
+            border: none;
+            padding: 12px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 25px;
+            transition: 0.3s;
+        }
+        .video-btn:hover { background: #fff; }
+
+        /* Bảng mật khẩu */
         .password-box {
-            background-color: #1a1a1a;
-            border: 1px solid #333;
-            border-radius: 10px;
+            background-color: #151515;
+            border: 1px solid #252525;
+            border-radius: 12px;
             padding: 15px;
-            margin-bottom: 30px;
-            width: 100%;
-            box-sizing: border-box;
+            margin-bottom: 25px;
         }
         .password-label {
-            color: #888;
-            font-size: 12px;
+            color: #666;
+            font-size: 11px;
             text-transform: uppercase;
             margin-bottom: 5px;
         }
         .password-value {
-            color: #ff4d4d; /* Màu đỏ nổi bật */
-            font-size: 20px;
+            color: #ff4d4d;
+            font-size: 22px;
             font-weight: bold;
-            letter-spacing: 1px;
         }
 
-        /* Phần Donate */
+        /* Donate */
         .donate-section {
-            margin-top: 20px;
-            border-top: 1px solid #333;
+            border-top: 1px solid #222;
             padding-top: 20px;
         }
         .donate-text {
-            color: #aaaaaa;
-            font-size: 13px;
+            color: #777;
+            font-size: 12px;
             font-style: italic;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
         .qr-code-container {
             background: white;
-            padding: 10px;
-            border-radius: 15px;
+            padding: 8px;
+            border-radius: 12px;
             display: inline-block;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }
         .qr-code {
-            width: 200px;
+            width: 100%;
+            max-width: 180px;
             height: auto;
             display: block;
         }
 
-        /* Responsive cho điện thoại nhỏ */
-        @media (max-width: 400px) {
-            .avatar {
-                width: 120px;
-                height: 120px;
-            }
-            .site-title {
-                font-size: 20px;
-            }
-            .download-btn {
-                font-size: 16px;
-                padding: 12px 24px;
-            }
-        }
     </style>
 </head>
 <body>
@@ -157,8 +155,10 @@
 
         <a href="https://link4m.com/XUcn9" class="download-btn">DOWNLOAD FILE MOD FREE</a>
 
+        <a href="https://youtube.com/shorts/bFfCw3uB7tQ?si=VMEl5RVKfdJNAzgR" class="video-btn">VIDEO HƯỚNG DẪN</a>
+
         <div class="password-box">
-            <div class="password-label">Pass giải nén:</div>
+            <div class="password-label">PASS GIẢI NÉN:</div>
             <div class="password-value">ver4</div>
         </div>
 
